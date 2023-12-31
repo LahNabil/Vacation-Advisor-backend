@@ -1,0 +1,5 @@
+emsi.projet.reservation.services.JwtService#generateToken(LUserDetails;)Ljava/lang/String;
+java.util.HashMap#<init>()V
+java.util.HashMap#instance-init#
+==
+generateToken emsi.projet.reservation.services.JwtService#generateToken(Ljava/util/Map;LUserDetails;)Ljava/lang/String;

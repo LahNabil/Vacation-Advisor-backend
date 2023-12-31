@@ -1,0 +1,4 @@
+emsi.projet.reservation.services.AuthenticationService#register(Lemsi/projet/reservation/auth/RegisterRequest;)Lemsi/projet/reservation/auth/AuthenticationResponse;
+emsi.projet.reservation.services.AuthenticationService#saveUserToken(Lemsi/projet/reservation/entities/User;Ljava/lang/String;)V
+==
+generateToken emsi.projet.reservation.services.JwtService#generateToken(LUserDetails;)Ljava/lang/String;

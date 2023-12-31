@@ -1,0 +1,5 @@
+emsi.projet.reservation.controllers.HotelController#getHotelById(Ljava/lang/Long;)LResponseEntity;
+java.util.Optional#isPresent()Z
+java.util.Optional#get()Ljava/lang/Object;
+==
+findById emsi.projet.reservation.services.HotelService#findById(Ljava/lang/Long;)Ljava/util/Optional;

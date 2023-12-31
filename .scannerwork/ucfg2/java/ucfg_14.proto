@@ -1,0 +1,62 @@
+
+‘emsi.projet.reservation.controllers.HotelController#createHotel(Lemsi/projet/reservation/entities/Hotel;)Lemsi/projet/reservation/entities/Hotel;k
+a/D:/Edu/SPRING/Reservation/src/main/java/emsi/projet/reservation/controllers/HotelController.java1 1("startingBlock*ñ
+startingBlock1 1(6›
+˜
+0 0(
+%2"
+__annotate*+
+
+__unknown_file (
+PostMapping*M
+
+__unknown_file (1
+/
+hotel&emsi.projet.reservation.entities.Hotel›
+˜
+1 1()
+%3"
+__annotate*+
+
+__unknown_file (
+RequestBody*M
+
+__unknown_file (1
+/
+hotel&emsi.projet.reservation.entities.Hotel”
+‘
+10 1(5/
+hotel&emsi.projet.reservation.entities.Hotel"__annotation*"
+
+__unknown_file (
+
+%2*"
+
+__unknown_file (
+
+%3*
+1*’
+12 2(¯
+¬
+2 2(3
+%0-emsi.projet.reservation.services.HotelService"__id*e
+
+__unknown_file (I*G5
+3emsi.projet.reservation.controllers.HotelController"
+hotelService”‘
+2 2($,
+%1&emsi.projet.reservation.entities.Hotel"„emsi.projet.reservation.services.HotelService#save(Lemsi/projet/reservation/entities/Hotel;)Lemsi/projet/reservation/entities/Hotel;*Q
+
+__unknown_file (5
+3
+%0-emsi.projet.reservation.services.HotelService*M
+
+__unknown_file (1
+/
+hotel&emsi.projet.reservation.entities.Hotel2.save(Lemsi/projet/reservation/entities/Hotel;)":
+2 2(%.
+,
+%1&emsi.projet.reservation.entities.Hotel:;
+1 1(5/
+hotel&emsi.projet.reservation.entities.HotelB75
+3emsi.projet.reservation.controllers.HotelControllerH

@@ -1,0 +1,8 @@
+emsi.projet.reservation.services.AuthenticationService#authenticate(Lemsi/projet/reservation/auth/AuthenticationRequest;)Lemsi/projet/reservation/auth/AuthenticationResponse;
+null
+emsi.projet.reservation.services.AuthenticationService#saveUserToken(Lemsi/projet/reservation/entities/User;Ljava/lang/String;)V
+emsi.projet.reservation.services.AuthenticationService#revokeAllUserTokens(Lemsi/projet/reservation/entities/User;)V
+==
+println java.io.PrintStream#println(Ljava/lang/String;)V
+findByEmail emsi.projet.reservation.repositories.UserRepository#findByEmail(Ljava/lang/String;)Ljava/util/Optional;
+generateToken emsi.projet.reservation.services.JwtService#generateToken(LUserDetails;)Ljava/lang/String;

@@ -1,0 +1,4 @@
+emsi.projet.reservation.controllers.HotelController#getAllHotels()LResponseEntity;
+null
+==
+findAll emsi.projet.reservation.services.HotelService#findAll()Ljava/util/List;

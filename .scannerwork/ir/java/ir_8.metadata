@@ -1,0 +1,4 @@
+emsi.projet.reservation.entities.User#getAuthorities()Ljava/util/Collection;
+null
+java.util.List#of(Ljava/lang/Object;)Ljava/util/List;
+java.lang.Enum#name()Ljava/lang/String;
