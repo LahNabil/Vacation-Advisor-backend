@@ -46,7 +46,7 @@ public class SecurityConfiguration implements WebMvcConfigurer {
             .csrf(AbstractHttpConfigurer::disable)
             .cors(AbstractHttpConfigurer::disable)
             .authorizeHttpRequests(req ->
-                    req.requestMatchers("/hotels/**","/","/register","/authenticate")
+                    req.requestMatchers("/hotels/**","/","/register","/authenticate","/profile")
                             .permitAll()
                             .anyRequest()
                             .authenticated()

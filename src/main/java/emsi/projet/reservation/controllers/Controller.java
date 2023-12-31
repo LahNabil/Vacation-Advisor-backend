@@ -3,6 +3,7 @@ package emsi.projet.reservation.controllers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,7 +22,7 @@ import emsi.projet.reservation.services.JwtService;
 
 @RestController
 @RequestMapping
-@CrossOrigin(origins = "http://localhost:5173/")
+@CrossOrigin(origins = "http://localhost:3000/")
 public class Controller {
 	
 	@Autowired
@@ -40,12 +41,25 @@ public class Controller {
 	@PostMapping("/authenticate")
 	  public ResponseEntity<AuthenticationResponse> authenticate(
 	      @RequestBody AuthenticationRequest request) {
-		System.out.println("Req email: " + request.getEmail());
-		System.out.println("Req pass: " + request.getPassword());
 		var user = repository.findByEmail(request.getEmail()).orElseThrow();
 		var jwtToken = jwtService.generateToken(user);
 		System.out.println("Generated JWT Token: " + jwtToken);
 	    return ResponseEntity.ok(service.authenticate(request));
 	    
 	  }
+	
+	@GetMapping("/profile")
+    public String getUser(String token){
+		return jwtService.extractUsername(token);
+        
+    }
+	
+	 	//@GetMapping("/profile")
+	    //public AuthenticationResponse infos(Authentication authentication){
+	      //  return authentication;
+	    //}
+	
+	
+	
+	
 }

@@ -15,4 +15,5 @@ public class AuthenticationResponse {
 	@JsonProperty("token")
 	  private String token;
 	  
+	  
 }
