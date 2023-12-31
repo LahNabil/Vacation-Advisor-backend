@@ -1,1 +1,1 @@
-emsi.projet.reservation.ReservationApplication#instance-init#
+emsi.projet.reservation.configuration.ApplicationConfig#userDetailsService()LUserDetailsService;

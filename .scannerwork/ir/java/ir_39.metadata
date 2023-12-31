@@ -1,5 +1,3 @@
-emsi.projet.reservation.controllers.HotelController#getHotelById(Ljava/lang/Long;)LResponseEntity;
-java.util.Optional#isPresent()Z
-java.util.Optional#get()Ljava/lang/Object;
+emsi.projet.reservation.services.JwtService#extractExpiration(Ljava/lang/String;)Ljava/util/Date;
 ==
-findById emsi.projet.reservation.services.HotelService#findById(Ljava/lang/Long;)Ljava/util/Optional;
+extractClaim emsi.projet.reservation.services.JwtService#extractClaim(Ljava/lang/String;Ljava/util/function/Function;)Ljava/lang/Object;

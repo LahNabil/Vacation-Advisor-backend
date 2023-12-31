@@ -1,1 +1,1 @@
-emsi.projet.reservation.ReservationApplication#main([Ljava/lang/String;)V
+emsi.projet.reservation.configuration.ApplicationConfig#authenticationManager(LAuthenticationConfiguration;)LAuthenticationManager;

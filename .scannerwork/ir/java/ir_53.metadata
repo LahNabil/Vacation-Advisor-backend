@@ -1,1 +1,1 @@
-emsi.projet.reservation.services.HotelService#instance-init#
+emsi.projet.reservation.services.AuthenticationService#saveUserToken(Lemsi/projet/reservation/entities/User;Ljava/lang/String;)V

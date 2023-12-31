@@ -1,1 +1,1 @@
-emsi.projet.reservation.services.HotelService#findById(Ljava/lang/Long;)Ljava/util/Optional;
+emsi.projet.reservation.services.HotelInt#instance-init#

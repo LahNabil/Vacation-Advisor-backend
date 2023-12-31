@@ -1,1 +1,1 @@
-emsi.projet.reservation.repositories.TokenRepository#<init>()V
+emsi.projet.reservation.auth.AuthenticatedUserResponse#setUser(Lemsi/projet/reservation/entities/User;)V

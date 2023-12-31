@@ -1,9 +1,1 @@
-emsi.projet.reservation.configuration.JwtAuthentificationFilter#doFilterInternal(LHttpServletRequest;LHttpServletResponse;LFilterChain;)V
-null
-java.lang.String#substring(I)Ljava/lang/String;
-java.util.Optional#map(Ljava/util/function/Function;)Ljava/util/Optional;
-java.lang.String#startsWith(Ljava/lang/String;)Z
-==
-findByToken emsi.projet.reservation.repositories.TokenRepository#findByToken(Ljava/lang/String;)Ljava/util/Optional;
-isTokenValid emsi.projet.reservation.services.JwtService#isTokenValid(Ljava/lang/String;LUserDetails;)Z
-extractUsername emsi.projet.reservation.services.JwtService#extractUsername(Ljava/lang/String;)Ljava/lang/String;
+emsi.projet.reservation.services.AuthenticationService#instance-init#

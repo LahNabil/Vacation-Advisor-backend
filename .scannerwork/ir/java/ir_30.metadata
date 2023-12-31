@@ -1,4 +1,2 @@
-emsi.projet.reservation.services.JwtService#generateRefreshToken(LUserDetails;)Ljava/lang/String;
-java.util.HashMap#<init>()V
-emsi.projet.reservation.services.JwtService#buildToken(Ljava/util/Map;LUserDetails;J)Ljava/lang/String;
-java.util.HashMap#instance-init#
+emsi.projet.reservation.services.JwtService#extractClaim(Ljava/lang/String;Ljava/util/function/Function;)Ljava/lang/Object;
+emsi.projet.reservation.services.JwtService#extractAllClaims(Ljava/lang/String;)LClaims;

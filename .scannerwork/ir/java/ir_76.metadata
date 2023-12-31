@@ -1,1 +1,5 @@
-emsi.projet.reservation.ReservationApplicationTests#<init>()V
+emsi.projet.reservation.services.HotelServiceTest#testSaveHotel_Success()V
+null
+emsi.projet.reservation.entities.Hotel#instance-init#
+==
+save emsi.projet.reservation.services.HotelService#save(Lemsi/projet/reservation/entities/Hotel;)Lemsi/projet/reservation/entities/Hotel;

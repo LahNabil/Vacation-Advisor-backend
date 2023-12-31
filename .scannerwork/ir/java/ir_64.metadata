@@ -1,5 +1,1 @@
-emsi.projet.reservation.configuration.ApplicationConfig#authenticationProvider()LAuthenticationProvider;
-null
-==
-userDetailsService emsi.projet.reservation.configuration.ApplicationConfig#userDetailsService()LUserDetailsService;
-passwordEncoder emsi.projet.reservation.configuration.ApplicationConfig#passwordEncoder()LPasswordEncoder;
+emsi.projet.reservation.services.HotelService#<init>()V

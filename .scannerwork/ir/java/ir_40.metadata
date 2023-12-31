@@ -1,3 +1,1 @@
-emsi.projet.reservation.controllers.HotelController#createHotel(Lemsi/projet/reservation/entities/Hotel;)Lemsi/projet/reservation/entities/Hotel;
-==
-save emsi.projet.reservation.services.HotelService#save(Lemsi/projet/reservation/entities/Hotel;)Lemsi/projet/reservation/entities/Hotel;
+emsi.projet.reservation.controllers.HotelController#instance-init#

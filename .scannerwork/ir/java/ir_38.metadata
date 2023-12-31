@@ -1,4 +1,6 @@
-emsi.projet.reservation.controllers.HotelController#getAllHotels()LResponseEntity;
-null
+emsi.projet.reservation.services.JwtService#isTokenExpired(Ljava/lang/String;)Z
+java.util.Date#<init>()V
+java.util.Date#instance-init#
+emsi.projet.reservation.services.JwtService#extractExpiration(Ljava/lang/String;)Ljava/util/Date;
 ==
-findAll emsi.projet.reservation.services.HotelService#findAll()Ljava/util/List;
+before java.util.Date#before(Ljava/util/Date;)Z

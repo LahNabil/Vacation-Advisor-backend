@@ -1,1 +1,1 @@
-emsi.projet.reservation.entities.Role#instance-init#
+emsi.projet.reservation.entities.User#getFirstname()Ljava/lang/String;

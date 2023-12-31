@@ -1,1 +1,4 @@
-emsi.projet.reservation.ReservationApplicationTests#instance-init#
+emsi.projet.reservation.services.HotelServiceTest#testGetHotelById_success()V
+java.util.Optional#get()Ljava/lang/Object;
+==
+findById emsi.projet.reservation.services.HotelService#findById(Ljava/lang/Long;)Ljava/util/Optional;

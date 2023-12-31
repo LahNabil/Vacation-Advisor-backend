@@ -1,7 +1,7 @@
 
-@emsi.projet.reservation.entities.User#isCredentialsNonExpired()Z]
-S/D:/Edu/SPRING/Reservation/src/main/java/emsi/projet/reservation/entities/User.javaK K(("1*!
-1L L("
-L L(
+<emsi.projet.reservation.entities.User#isAccountNonExpired()Z]
+S/D:/Edu/SPRING/Reservation/src/main/java/emsi/projet/reservation/entities/User.javaA A($"1*!
+1B B("
+B B(
 ""B)'
 %emsi.projet.reservation.entities.UserHX

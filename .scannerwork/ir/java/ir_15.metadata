@@ -1,1 +1,1 @@
-emsi.projet.reservation.entities.User#getFirstname()Ljava/lang/String;
+emsi.projet.reservation.entities.User#isAccountNonExpired()Z

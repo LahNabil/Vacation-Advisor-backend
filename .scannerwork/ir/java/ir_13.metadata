@@ -1,1 +1,1 @@
-emsi.projet.reservation.entities.User#isCredentialsNonExpired()Z
+emsi.projet.reservation.entities.User#getPassword()Ljava/lang/String;

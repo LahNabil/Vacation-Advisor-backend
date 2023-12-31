@@ -2,7 +2,11 @@
 .emsi.projet.reservation.controllers.ControllerB
 <init>8emsi.projet.reservation.controllers.Controller#<init>()Vjava.lang.Object v
 &emsi.projet.reservation.entities.Hotel:
-<init>0emsi.projet.reservation.entities.Hotel#<init>()Vjava.lang.Object∆
+<init>0emsi.projet.reservation.entities.Hotel#<init>()Vjava.lang.Object‰
+8emsi.projet.reservation.repositories.HotelRepositoryTestL
+<init>Bemsi.projet.reservation.repositories.HotelRepositoryTest#<init>()Vt
+testGetHotelByNom_emsi.projet.reservation.repositories.HotelRepositoryTest#testGetHotelByNom(Ljava/lang/String;)VR
+	voidSetupEemsi.projet.reservation.repositories.HotelRepositoryTest#voidSetup()Vjava.lang.Object∆
 %emsi.projet.reservation.entities.User9
 <init>/emsi.projet.reservation.entities.User#<init>()VV
 getFirstnameFemsi.projet.reservation.entities.User#getFirstname()Ljava/lang/String;T
@@ -28,26 +32,38 @@
 isTokenExpiredOemsi.projet.reservation.services.JwtService#isTokenExpired(Ljava/lang/String;)Zjava.lang.Object ∂
 3emsi.projet.reservation.controllers.HotelControllerG
 <init>=emsi.projet.reservation.controllers.HotelController#<init>()V°
-createHotelëemsi.projet.reservation.controllers.HotelController#createHotel(Lemsi/projet/reservation/entities/Hotel;)Lemsi/projet/reservation/entities/Hotel;java.lang.Object Ø
+createHotelëemsi.projet.reservation.controllers.HotelController#createHotel(Lemsi/projet/reservation/entities/Hotel;)Lemsi/projet/reservation/entities/Hotel;java.lang.Object Æ
+7emsi.projet.reservation.controllers.HotelControllerTestK
+<init>Aemsi.projet.reservation.controllers.HotelControllerTest#<init>()VI
+hotel@emsi.projet.reservation.controllers.HotelControllerTest#hotel()VI
+setUp@emsi.projet.reservation.controllers.HotelControllerTest#setUp()Vjava.lang.ObjectØ
 6emsi.projet.reservation.services.AuthenticationServiceJ
 <init>@emsi.projet.reservation.services.AuthenticationService#<init>()Vø
 authenticateÆemsi.projet.reservation.services.AuthenticationService#authenticate(Lemsi/projet/reservation/auth/AuthenticationRequest;)Lemsi/projet/reservation/auth/AuthenticationResponse;±
 register§emsi.projet.reservation.services.AuthenticationService#register(Lemsi/projet/reservation/auth/RegisterRequest;)Lemsi/projet/reservation/auth/AuthenticationResponse;ã
 revokeAllUserTokenstemsi.projet.reservation.services.AuthenticationService#revokeAllUserTokens(Lemsi/projet/reservation/entities/User;)Ví
-saveUserTokenÄemsi.projet.reservation.services.AuthenticationService#saveUserToken(Lemsi/projet/reservation/entities/User;Ljava/lang/String;)Vjava.lang.Objectò
+saveUserTokenÄemsi.projet.reservation.services.AuthenticationService#saveUserToken(Lemsi/projet/reservation/entities/User;Ljava/lang/String;)Vjava.lang.Object=
+)emsi.projet.reservation.services.HotelIntjava.lang.Objectò
 ?emsi.projet.reservation.configuration.JwtAuthentificationFilterS
 <init>Iemsi.projet.reservation.configuration.JwtAuthentificationFilter#<init>()V ê
 3emsi.projet.reservation.auth.AuthenticationResponseG
-<init>=emsi.projet.reservation.auth.AuthenticationResponse#<init>()Vjava.lang.Object≠
+<init>=emsi.projet.reservation.auth.AuthenticationResponse#<init>()Vjava.lang.Objectø
 -emsi.projet.reservation.services.HotelServiceA
-<init>7emsi.projet.reservation.services.HotelService#<init>()VY
+<init>7emsi.projet.reservation.services.HotelService#<init>()Vè
+HotelÖemsi.projet.reservation.services.HotelService#Hotel(Lemsi/projet/reservation/entities/Hotel;)Lemsi/projet/reservation/entities/Hotel;Y
 
 deleteByIdKemsi.projet.reservation.services.HotelService#deleteById(Ljava/lang/Long;)VR
 findAllGemsi.projet.reservation.services.HotelService#findAll()Ljava/util/List;h
 findById\emsi.projet.reservation.services.HotelService#findById(Ljava/lang/Long;)Ljava/util/Optional;ç
 saveÑemsi.projet.reservation.services.HotelService#save(Lemsi/projet/reservation/entities/Hotel;)Lemsi/projet/reservation/entities/Hotel;java.lang.ObjectÇ
 ,emsi.projet.reservation.auth.RegisterRequest@
-<init>6emsi.projet.reservation.auth.RegisterRequest#<init>()Vjava.lang.Objectö
+<init>6emsi.projet.reservation.auth.RegisterRequest#<init>()Vjava.lang.Objectö
+1emsi.projet.reservation.services.HotelServiceTestE
+<init>;emsi.projet.reservation.services.HotelServiceTest#<init>()Vo
+testDeleteHotelById_SuccessPemsi.projet.reservation.services.HotelServiceTest#testDeleteHotelById_Success()Vi
+testGetHotelById_successMemsi.projet.reservation.services.HotelServiceTest#testGetHotelById_success()Vc
+testSaveHotel_SuccessJemsi.projet.reservation.services.HotelServiceTest#testSaveHotel_Success()VK
+	voidSetup>emsi.projet.reservation.services.HotelServiceTest#voidSetup()Vjava.lang.Objectö
 7emsi.projet.reservation.configuration.ApplicationConfigK
 <init>Aemsi.projet.reservation.configuration.ApplicationConfig#<init>()Vjava.lang.Object –
 6emsi.projet.reservation.auth.AuthenticatedUserResponseJ

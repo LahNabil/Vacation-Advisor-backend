@@ -1,1 +1,2 @@
-emsi.projet.reservation.services.JwtService#getSignInKey()Ljava/security/Key;
+emsi.projet.reservation.services.JwtService#generateToken(Ljava/util/Map;LUserDetails;)Ljava/lang/String;
+emsi.projet.reservation.services.JwtService#buildToken(Ljava/util/Map;LUserDetails;J)Ljava/lang/String;

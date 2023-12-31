@@ -1,1 +1,1 @@
-emsi.projet.reservation.repositories.TokenRepository#instance-init#
+emsi.projet.reservation.auth.AuthenticatedUserResponse#getUser()Lemsi/projet/reservation/entities/User;

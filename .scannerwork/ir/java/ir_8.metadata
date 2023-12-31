@@ -1,4 +1,5 @@
-emsi.projet.reservation.entities.User#getAuthorities()Ljava/util/Collection;
+emsi.projet.reservation.repositories.HotelRepositoryTest#voidSetup()V
 null
-java.util.List#of(Ljava/lang/Object;)Ljava/util/List;
-java.lang.Enum#name()Ljava/lang/String;
+emsi.projet.reservation.entities.Hotel#instance-init#
+==
+getHotelByNom emsi.projet.reservation.repositories.HotelRepository#getHotelByNom(Ljava/lang/String;)Lemsi/projet/reservation/entities/Hotel;

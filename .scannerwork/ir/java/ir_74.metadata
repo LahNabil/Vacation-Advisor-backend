@@ -1,1 +1,4 @@
-emsi.projet.reservation.entities.Token#<init>()V
+emsi.projet.reservation.services.HotelServiceTest#voidSetup()V
+null
+emsi.projet.reservation.entities.Hotel#instance-init#
+java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;

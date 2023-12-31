@@ -1,3 +1,1 @@
-emsi.projet.reservation.services.AuthenticationService#revokeAllUserTokens(Lemsi/projet/reservation/entities/User;)V
-==
-findAllValidTokenByUser emsi.projet.reservation.repositories.TokenRepository#findAllValidTokenByUser(Ljava/lang/Integer;)Ljava/util/List;
+emsi.projet.reservation.controllers.HotelControllerTest#<init>()V

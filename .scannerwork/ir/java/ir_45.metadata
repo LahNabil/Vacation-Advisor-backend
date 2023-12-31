@@ -1,1 +1,5 @@
-emsi.projet.reservation.services.AuthenticationService#saveUserToken(Lemsi/projet/reservation/entities/User;Ljava/lang/String;)V
+emsi.projet.reservation.controllers.HotelController#deleteHotel(Ljava/lang/Long;)LResponseEntity;
+java.util.Optional#isPresent()Z
+==
+findById emsi.projet.reservation.services.HotelService#findById(Ljava/lang/Long;)Ljava/util/Optional;
+deleteById emsi.projet.reservation.services.HotelService#deleteById(Ljava/lang/Long;)V

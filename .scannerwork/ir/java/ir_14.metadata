@@ -1,1 +1,1 @@
-emsi.projet.reservation.entities.User#isEnabled()Z
+emsi.projet.reservation.entities.User#getUsername()Ljava/lang/String;

@@ -1,2 +1,1 @@
-emsi.projet.reservation.services.JwtService#extractClaim(Ljava/lang/String;Ljava/util/function/Function;)Ljava/lang/Object;
-emsi.projet.reservation.services.JwtService#extractAllClaims(Ljava/lang/String;)LClaims;
+emsi.projet.reservation.repositories.HotelRepository#<init>()V

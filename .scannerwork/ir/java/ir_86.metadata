@@ -1,1 +1,1 @@
-emsi.projet.reservation.configuration.SecurityConfiguration#<init>()V
+emsi.projet.reservation.auth.AuthenticatedUserResponse#getAuthenticationResponse()Lemsi/projet/reservation/auth/AuthenticationResponse;

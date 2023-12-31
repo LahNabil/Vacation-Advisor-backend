@@ -1,16 +1,106 @@
 
-\emsi.projet.reservation.services.HotelService#findById(Ljava/lang/Long;)Ljava/util/Optional;e
-[/D:/Edu/SPRING/Reservation/src/main/java/emsi/projet/reservation/services/HotelService.java (#"1*×
-1 (³
-°
- (:
-%04emsi.projet.reservation.repositories.HotelRepository"__id*b
+®emsi.projet.reservation.services.AuthenticationService#authenticate(Lemsi/projet/reservation/auth/AuthenticationRequest;)Lemsi/projet/reservation/auth/AuthenticationResponse;n
+d/D:/Edu/SPRING/Reservation/src/main/java/emsi/projet/reservation/services/AuthenticationService.javaE" E(."1*›
+1F F(¶
+³
+K K(9
+%03emsi.projet.reservation.repositories.UserRepository"__id*f
 
-__unknown_file (F*D/
--emsi.projet.reservation.services.HotelService"
-hotelRepository"
- (,
-"": 
-$ (+
-idjava.lang.LongB1/
--emsi.projet.reservation.services.HotelServiceH
+__unknown_file (J*H8
+6emsi.projet.reservation.services.AuthenticationService"
+
+repositoryš—
+K K(=
+%1"gemsi.projet.reservation.repositories.UserRepository#findByEmail(Ljava/lang/String;)Ljava/util/Optional;*W
+
+__unknown_file (;
+9
+%03emsi.projet.reservation.repositories.UserRepository*"
+
+__unknown_file (
+""2findByEmail(Ljava/lang/String;)P
+N
+K K(L
+userjava.lang.Object"__id*"
+
+__unknown_file (
+""®
+«
+L L(!1
+%2+emsi.projet.reservation.services.JwtService"__id*f
+
+__unknown_file (J*H8
+6emsi.projet.reservation.services.AuthenticationService"
+
+jwtService–“
+L L(5
+%3"Zemsi.projet.reservation.services.JwtService#generateToken(LUserDetails;)Ljava/lang/String;*O
+
+__unknown_file (3
+1
+%2+emsi.projet.reservation.services.JwtService*6
+
+__unknown_file (
+
+userjava.lang.Object2generateToken(LUserDetails;)T
+R
+L L(6
+jwtTokenjava.lang.Object"__id*"
+
+__unknown_file (
+
+%3Q
+O
+M M(
+%4java.io.PrintStream"__id*"
+
+__unknown_file (
+""
+
+M M(=
+%5java.lang.String"__concat*%
+M M(2
+Generated JWT Token: **
+M5 M(=
+
+jwtTokenjava.lang.Object×Ô
+M M(>
+
+%6void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%4java.io.PrintStream*4
+
+__unknown_file (
+
+%5java.lang.String2println(Ljava/lang/String;)™
+–
+N N(!
+%7"temsi.projet.reservation.services.AuthenticationService#revokeAllUserTokens(Lemsi/projet/reservation/entities/User;)V*V
+
+__unknown_file (:8
+6emsi.projet.reservation.services.AuthenticationService*6
+
+__unknown_file (
+
+userjava.lang.Objectâ
+ß
+O O(%
+%8"€emsi.projet.reservation.services.AuthenticationService#saveUserToken(Lemsi/projet/reservation/entities/User;Ljava/lang/String;)V*V
+
+__unknown_file (:8
+6emsi.projet.reservation.services.AuthenticationService*6
+
+__unknown_file (
+
+userjava.lang.Object*:
+
+__unknown_file (
+
+jwtTokenjava.lang.Object"
+P S(
+"":I
+E/ E(L=
+request2emsi.projet.reservation.auth.AuthenticationRequestB:8
+6emsi.projet.reservation.services.AuthenticationServiceH

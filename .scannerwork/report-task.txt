@@ -3,5 +3,5 @@ projectKey=travel-advisor-backend_travel-backend
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.51767
 dashboardUrl=https://sonarcloud.io/dashboard?id=travel-advisor-backend_travel-backend
-ceTaskId=AYzAsGQ2w9aIP1mwWZ42
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYzAsGQ2w9aIP1mwWZ42
+ceTaskId=AYzBiKcowCJTNCr3cxIR
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYzBiKcowCJTNCr3cxIR
