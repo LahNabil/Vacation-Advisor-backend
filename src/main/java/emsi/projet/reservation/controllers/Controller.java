@@ -1,12 +1,14 @@
 package emsi.projet.reservation.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import emsi.projet.reservation.auth.AuthenticationRequest;
@@ -49,8 +51,14 @@ public class Controller {
 	  }
 	
 	@GetMapping("/profile")
-    public String getUser(String token){
-		return jwtService.extractUsername(token);
+    public ResponseEntity<String> getUser(@RequestParam String token){
+		try {
+            String username = jwtService.extractUsername(token);
+            return ResponseEntity.ok(username);
+		} catch (Exception e) {
+            // You can customize the error message and HTTP status code based on your requirements.
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Error extracting username from token");
+        }
         
     }
 	
