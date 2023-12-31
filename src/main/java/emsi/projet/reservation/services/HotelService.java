@@ -4,7 +4,9 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Service;
+
 
 import emsi.projet.reservation.entities.Hotel;
 import emsi.projet.reservation.repositories.HotelRepository;
@@ -23,6 +25,7 @@ public class HotelService {
        
         return hotelRepository.save(hotel);
     }
+    
 
     public Optional<Hotel> findById(Long id) {
         return hotelRepository.findById(id);
@@ -35,12 +38,23 @@ public class HotelService {
     public List<Hotel> findAll() {
         return hotelRepository.findAll();
     }
+    
 
-   /* public void update(Long id, Appareil appInfo) {
-        Appareil appareil = appareilRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("app not found with id " + id));
-        appareil.setState(appInfo.isState());
-        appareilRepository.save(appareil);
-    }
-    */
+    
+    public Hotel Hotel(Hotel hotel) {
+		  Hotel exHotel = hotelRepository.findById(hotel.getId()).orElse(null);
+	        if(exHotel == null) {
+	            System.out.println("Emp not found");
+	            
+	        }else  {
+	        	exHotel.setNom(hotel.getNom());
+	        	exHotel.setAdresse(hotel.getAdresse());
+	        	exHotel.setEtoile(hotel.getEtoile());
+	        	exHotel.setPhoto(hotel.getPhoto());
+	        	exHotel.setDescription(hotel.getDescription());
+	        	hotelRepository.save(exHotel);
+	        }
+	        return hotel;
+	 }
 
 }
